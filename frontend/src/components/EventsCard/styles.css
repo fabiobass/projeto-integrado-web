@@ -1,0 +1,146 @@
+.card-container {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.card-container:hover {
+  width: 101%;
+  border-left: 4px solid #ef3742;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-image img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-title h1 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -0.015em;
+  padding: 10px;
+  padding-bottom: 0;
+  color: #ef3742;
+  text-align: center;
+}
+
+.card-date {
+  display: flex;
+}
+
+.card-date p {
+  letter-spacing: -0.015em;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.card-date label {
+  letter-spacing: -0.015em;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.img-delete {
+  width: 4%;
+  display: inline-block;
+  margin: 0 15px 15px 15px;
+  cursor: pointer;
+}
+.img-edit {
+  width: 4%;
+  display: inline-block;
+}
+
+@media (min-width: 576px) {
+  .card-image img {
+    width: 100%;
+    height: 160px;
+  }
+  .card-container:hover {
+    width: 102%;
+    border-left: 5px solid #ef3742;
+  }
+  .card-date p {
+    font-size: 0.9em;
+  }
+
+  .card-date label {
+    font-size: 0.9em;
+  }
+  .img-delete {
+    width: 5%;
+  }
+  .img-edit {
+    width: 5%;
+  }
+}
+@media (min-width: 768px) {
+  .card-container {
+    width: 325px;
+    height: 90%;
+  }
+  .card-date p {
+    font-size: 1em;
+  }
+
+  .card-date label {
+    font-size: 1em;
+  }
+}
+@media (min-width: 992px) {
+  .card-container {
+    width: 100%;
+  }
+  .card-image img {
+    width: 100%;
+    height: 150px;
+  }
+  .card-title h1 {
+    font-size: 1.3em;
+  }
+  .card-date p {
+    font-size: 0.9em;
+  }
+
+  .card-date label {
+    font-size: 0.9em;
+  }
+  .img-delete {
+    width: 7%;
+  }
+  .img-edit {
+    width: 7%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-container {
+    padding-bottom: 20px;
+  }
+  .card-image img {
+    height: 210px;
+  }
+  .card-container:hover {
+    width: 103%;
+    border-left: 7px solid #ef3742;
+  }
+  .card-title h1 {
+    font-size: 1.2em;
+  }
+  .card-date p {
+    font-size: 1em;
+  }
+
+  .card-date label {
+    font-size: 1em;
+  }
+  .img-delete {
+    width: 5%;
+  }
+  .img-edit {
+    width: 5%;
+  }
+}

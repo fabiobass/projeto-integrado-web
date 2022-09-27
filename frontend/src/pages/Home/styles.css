@@ -1,0 +1,300 @@
+.home-container {
+  padding: 10px;
+}
+
+.h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.h2-two {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.gif-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gif-button-img {
+  margin-top: 20px;
+  width: 8%;
+  transform: rotate(450deg);
+}
+
+.home-img {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-home-events {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px 70px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 7px;
+}
+
+.logo-img {
+  width: 40%;
+  border-radius: 4px;
+}
+
+.logo-gif {
+  display: none;
+}
+
+.home-text {
+  text-align: center;
+  border-top: 1px solid #323e87;
+  border-bottom: 1px solid #323e87;
+  margin-top: 20px;
+}
+
+.home-text h1 {
+  color: #ef3742;
+  margin: 10px;
+}
+
+.redes-container {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #ef3742;
+}
+
+.redes-p {
+  display: none;
+}
+
+.redes-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 30px;
+  height: auto;
+}
+
+.redes-text-container h4,
+h6 {
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  border-radius: 4px;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 1px;
+}
+
+.dropdown-content span {
+  color: #000;
+  padding: 5px 85px;
+  border-radius: 4px;
+  display: block;
+  font-weight: 500;
+  padding: 5px 70px;
+  letter-spacing: 7px;
+}
+
+.dropdown-content span:hover {
+  background-color: #ef3742;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-text:hover {
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 20px;
+  }
+
+  .btn-home-events {
+    margin-top: 20px;
+    padding: 5px 100px;
+  }
+  .gif-button-img {
+    width: 5%;
+  }
+
+  .logo-img {
+    width: 25%;
+  }
+
+  .redes-p {
+    display: inline;
+    color: #fff;
+    font-size: 11px;
+  }
+  .home-text p {
+    font-size: 12px;
+  }
+
+  .home-text h1 {
+    font-size: 22px;
+  }
+
+  .redes-img {
+    display: inline;
+  }
+  .img {
+    margin-right: 20px;
+  }
+  .dropdown-content span {
+    padding: 5px 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    padding: 15px 40px;
+  }
+  .container-h {
+    text-align: center;
+  }
+  .h2 {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .logo-gif {
+    width: 20%;
+  }
+  .logo-img {
+    width: 20%;
+  }
+  .home-text h1 {
+    font-size: 30px;
+  }
+  .home-text p {
+    font-size: 14px;
+  }
+  .home-text {
+    text-align: left;
+    padding-left: 40px;
+  }
+  .redes-container {
+    padding: 20px 40px;
+  }
+  .img {
+    margin-right: 40px;
+  }
+  .redes-p {
+    margin-left: 20px;
+  }
+  .container-h {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #ef3742;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .redes-text-container h4,
+  h6 {
+    display: inline;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .redes-text-container h6 {
+    font-size: 10px;
+    margin-right: 8px;
+    font-weight: 100;
+  }
+  .redes-text-container h4 {
+    margin-left: 4px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    padding: 20px 50px;
+  }
+
+  .btn-home-events {
+    padding: 8px 150px;
+  }
+
+  .logo-img {
+    width: 15%;
+    margin-bottom: 20px;
+  }
+  .home-text {
+    text-align: center;
+    border-bottom: 3px solid #323e87;
+    border-top: 1px solid #323e87;
+    margin-bottom: 10px;
+  }
+
+  .gif-button-img {
+    width: 3%;
+    margin-top: 35px;
+  }
+
+  .redes-container {
+    padding: 20px;
+    width: 80%;
+    margin-left: 110px;
+    border-radius: 10px;
+  }
+  .container-h {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #ef3742;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .redes-text-container h4,
+  h6 {
+    font-size: 20px;
+  }
+  .dropdown-content span {
+    padding: 5px 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    padding: 40px 80px;
+  }
+  .home-text {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .btn-home-events {
+    padding: 10px 90px;
+  }
+  .redes-container {
+    padding: 20px;
+    width: 70%;
+    margin-left: 210px;
+    margin-top: 45px;
+  }
+  .redes-text-container h4,
+  h6 {
+    font-size: 25px;
+  }
+  .gif-button-img {
+    width: 3%;
+  }
+  .dropdown-content span {
+    padding: 10px 92px;
+  }
+}

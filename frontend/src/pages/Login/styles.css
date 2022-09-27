@@ -1,0 +1,92 @@
+.login-container {
+  padding: 60px 10px;
+}
+
+.nav-logo {
+  width: 20%;
+  margin: 0 0 20px 80px;
+}
+
+.login-card-container {
+  background-image: url(../../assets/images/alunos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  padding: 170px 10px 50px 10px;
+}
+
+.btn-login {
+  padding: 0px 20px;
+  color: #fff;
+}
+
+.button {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-decoration-color: aqua;
+}
+
+@media (min-width: 576px) {
+  .nav-logo {
+    margin: 0 0 30px 120px;
+  }
+  .btn-login {
+    padding: 5px 70px;
+  }
+  .login-container {
+    padding: 20px 70px;
+  }
+  .login-card-container {
+    padding: 230px 10px 90px 10px;
+  }
+  .input input {
+    height: 50px;
+  }
+  .btn-pad {
+    padding: 10px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-login {
+    padding: 5px 50px;
+  }
+  .login-container {
+    padding: 20px 80px 10px 120px;
+  }
+  .login-card-container {
+    padding: 250px 30px;
+    width: 480px;
+    height: 550px;
+  }
+  .nav-logo {
+    margin: 0 0 20px 145px;
+  }
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    padding: 25px 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-logo {
+    margin: 0 0 30px 140px;
+  }
+  .login-container {
+    padding: 20px 20px 40px 480px;
+  }
+  .btn-pad {
+    padding: 10px 20px;
+  }
+}
