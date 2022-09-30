@@ -5,18 +5,14 @@
   margin-bottom: 20px;
   border-radius: 4px;
 }
-
 .card-container:hover {
-  width: 101%;
-  border-left: 4px solid #ef3742;
+  transition: 1s;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
-
 .card-image img {
   width: 100%;
   height: 200px;
 }
-
 .card-title h1 {
   font-weight: bold;
   font-size: 18px;
@@ -26,23 +22,19 @@
   color: #ef3742;
   text-align: center;
 }
-
 .card-date {
   display: flex;
 }
-
 .card-date p {
   letter-spacing: -0.015em;
   margin-left: 5px;
   margin-top: 15px;
 }
-
 .card-date label {
   letter-spacing: -0.015em;
   margin-left: 15px;
   margin-top: 15px;
 }
-
 .img-delete {
   width: 4%;
   display: inline-block;
@@ -53,20 +45,28 @@
   width: 4%;
   display: inline-block;
 }
-
+.zoom {
+  overflow: hidden;
+}
+.zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.zoom:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 @media (min-width: 576px) {
   .card-image img {
     width: 100%;
     height: 160px;
   }
-  .card-container:hover {
-    width: 102%;
-    border-left: 5px solid #ef3742;
-  }
   .card-date p {
     font-size: 0.9em;
   }
-
   .card-date label {
     font-size: 0.9em;
   }
@@ -85,7 +85,6 @@
   .card-date p {
     font-size: 1em;
   }
-
   .card-date label {
     font-size: 1em;
   }
@@ -123,17 +122,12 @@
   .card-image img {
     height: 210px;
   }
-  .card-container:hover {
-    width: 103%;
-    border-left: 7px solid #ef3742;
-  }
   .card-title h1 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .card-date p {
     font-size: 1em;
   }
-
   .card-date label {
     font-size: 1em;
   }

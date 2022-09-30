@@ -49,16 +49,17 @@ function EventsCard({ events, onDelete }: Props) {
           </Link>
         </div>
       )}
-
-      <div className="card-image">
-        <img src={events.imgUrl} alt={events.name} />
-      </div>
-      <div className="card-title">
-        <h1>{events.name}</h1>
-      </div>
-      <div className="card-date">
-        <label htmlFor="date">Data:</label>
-        <p>{formatDate(events.date)}</p>
+      <div className="zoom">
+        <div className="card-image zoom">
+          <img src={events.imgUrl} alt={events.name} />
+        </div>
+        <div className="card-title">
+          <h1>{events.name}</h1>
+        </div>
+        <div className="card-date">
+          <label htmlFor="date">Data:</label>
+          <p>{formatDate(events.date)}</p>
+        </div>
       </div>
     </div>
   );
