@@ -59,7 +59,7 @@ function NewsForm() {
     <div className="form-news-container ">
       <div className="animate__animated animate__fadeInLeft">
         <div className="form-news-card-container">
-          <h1>Cadastre notícias</h1>
+          <h1>Notícias</h1>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="margin-bottom-30 input-form">
               <input

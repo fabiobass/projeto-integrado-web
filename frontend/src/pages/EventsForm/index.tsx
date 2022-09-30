@@ -59,7 +59,7 @@ function EventsForm() {
     <div className="form-container">
       <div className="animate__animated animate__fadeInLeft">
         <div className="form-card-container">
-          <h1>Cadastre eventos</h1>
+          <h1>Eventos</h1>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="margin-bottom-30 input-form">
               <input
