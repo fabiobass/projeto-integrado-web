@@ -7,7 +7,7 @@ Primeiro, execute o servidor de desenvolvimento:
 Abra http://localhost:3000 com seu navegador para ver o resultado.
 
 ## Front-end
-React Typescript
+React Typescript ( node-v 14.16.1 )
 
 ## Back-end
 Java SpringBoot
