@@ -51,7 +51,7 @@ function NewsCard({ news, onDelete }: Props) {
         <h1>{news.name}</h1>
       </div>
       <div className="card-description">
-        <a href={news.url}>
+        <a href={news.url} target="blank">
           <p>{news.description}</p>
         </a>
       </div>

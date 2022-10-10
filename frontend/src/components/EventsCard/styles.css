@@ -39,7 +39,7 @@
 .img-delete {
   width: 4%;
   display: inline-block;
-  margin: 0 15px 15px 15px;
+  margin: 0 15px;
   cursor: pointer;
 }
 .img-edit {

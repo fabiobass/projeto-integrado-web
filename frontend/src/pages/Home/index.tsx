@@ -76,15 +76,13 @@ function Home() {
 
       <div className="redes-container">
         <div className="redes-img">
-          <a href="https://www.instagram.com/fabio_silva0409/">
-            {' '}
+          <a href="https://www.instagram.com/fabio_silva0409/" target="blank">
             <img src={InstImg} alt="Logo" className="img" />
           </a>
-          <a href="https://www.facebook.com/fabio.bass.7">
+          <a href="https://www.facebook.com/fabio.bass.7" target="blank">
             <img src={FaceImg} alt="Logo" className="img" />
           </a>
-          <a href="https://www.linkedin.com/in/fábio-sillva/">
-            {' '}
+          <a href="https://www.linkedin.com/in/fábio-sillva/" target="blank">
             <img src={LinkImg} alt="Logo" className="img" />
           </a>
           <p className="redes-p">
