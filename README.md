@@ -10,7 +10,7 @@ Abra http://localhost:3000 com seu navegador para ver o resultado.
 React Typescript ( node-v 14.16.1 )
 
 ## Back-end
-Java SpringBoot
+Java 11 ( SpringBoot 2.4.4 )
 
 # Projeto Integrador
 
